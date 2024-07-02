@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-card{
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin:8px;
+    width: 200px;
+}
+.filters, .sorting{
+    margin-bottom: 16px;
+}
